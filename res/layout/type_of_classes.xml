@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="7dp"
+    android:layout_y="21dp"
+    android:src="@drawable/png_degree_audit_logo" />
+
+<ImageView
+    android:id="@+id/blue_progress_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="7dp"
+    android:layout_y="140dp"
+    android:src="@drawable/png_progress_bar" />
+
+<ImageView
+    android:id="@+id/white_progress_bar"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_x="250dp"
+    android:layout_y="45dp"
+    android:src="@drawable/png_white_heightened_progress_bar" />
+
+<ImageView
+    android:id="@+id/basket"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_x="156dp"
+    android:layout_y="100dp"
+    android:src="@drawable/png_basket_logo" />
+
+<RelativeLayout
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="15dp"
+    android:layout_y="234dp" >
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/Estimated_deg_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="194dp"
+    android:text="Estimated Degree Progress" />
+
+</AbsoluteLayout>

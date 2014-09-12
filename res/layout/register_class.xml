@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <AbsoluteLayout
+        android:id="@+id/absolute_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="-55dp"
+            android:layout_y="-150dp"
+            android:src="@drawable/png_register_class_logo" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_x="-54dp"
+            android:layout_y="-66dp"
+            android:src="@drawable/png_create_new_degree_audit" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_x="-65dp"
+            android:layout_y="-50dp"
+            android:src="@drawable/png_grey_bar_seperator" />
+
+        <TextView
+            android:id="@+id/Choose_audit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="216dp"
+            android:text="Choose Existing Audit : "
+            android:textSize="25dp" />
+
+        <RelativeLayout
+            android:id="@+id/linear_layout_for_text_and_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="250dp"
+            android:orientation="vertical" >
+        </RelativeLayout>
+    </AbsoluteLayout>
+
+</ScrollView>

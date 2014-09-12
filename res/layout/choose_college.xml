@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/forward_arrow"
+        android:layout_gravity="right|bottom" />
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/back_arrow"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="-5dp" />
+
+    <ImageView
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/home_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:layout_height="240dp"
+        android:layout_width="240dp"
+        android:src="@drawable/choose_college"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="8dp"/>
+    <ImageView
+        android:layout_height="240dp"
+        android:layout_width="240dp"
+        android:src="@drawable/choose_college"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="8dp"/>
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+
+
+    <ImageView
+        android:layout_height="230dp"
+        android:layout_width="230dp"
+        android:src="@drawable/cockrell_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="-9dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/cns_logo" />
+
+    <ImageView
+        android:layout_height="230dp"
+        android:layout_width="230dp"
+        android:src="@drawable/ccombs_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="169dp"
+        android:layout_marginLeft="-30dp"
+
+        />
+    </FrameLayout>
+    </ScrollView>
+</FrameLayout>
